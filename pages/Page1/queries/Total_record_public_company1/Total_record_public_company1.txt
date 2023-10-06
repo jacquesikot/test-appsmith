@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.company where name ilike '%{{Table1.searchText}}%';
